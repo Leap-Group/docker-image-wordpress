@@ -13,6 +13,6 @@ steps:
   - task: mirror-git-repository-vsts-task@1
     inputs:
       sourceGitRepositoryUri: '$(Build.Repository.Uri)'
-      sourceGitRepositoryPersonalAccessToken: '$(Azure)'
+      sourceGitRepositoryPersonalAccessToken: '$(AZURE)'
       destinationGitRepositoryUri: 'https://github.com/leap-spark/docker-wordpress'
-      destinationGitRepositoryPersonalAccessToken: '$(Github)'
+      destinationGitRepositoryPersonalAccessToken: '$(GITHUB)'
