@@ -1,1 +1,1 @@
-**THIS REPOSITORY IS A MIRROR**
+# WordPress Dockerfile
