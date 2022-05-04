@@ -1,5 +1,8 @@
 trigger:
-- main
+  tags:
+    - '*'
+  branches:
+    - main
 
 pool:
   vmImage: ubuntu-latest
